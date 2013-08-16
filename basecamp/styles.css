@@ -1,3 +1,61 @@
 body{
-  /* rules go here */
+  font-family: helvetica;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto 20px;
+}
+
+.central {
+  background: url("img/speech.png") 25px 25px no-repeat;
+}
+
+.topBar {
+  display: block;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d4cdc1;
+}
+
+.center {
+  position: relative;
+}
+
+
+ul{
+  list-style-type:none;
+}
+
+li{
+  text-align: -webkit-center;
+  float: right;
+  display:inline;
+  margin-left: 30px;
+
+}
+
+.signin{
+  background-color: #06c;
+  font: white;
+}
+
+.formfield{
+  position: relative;
+  text-align: -webkit-center;
+  top: -431px;
+  left: 280px;
+}
+
+.formfield input{
+  display: block;
+}
+
+.lady img {
+  position: relative;
+  top: 81px;
+  left: 226px;
+}
+
+#first {
+  display: block;
 }
